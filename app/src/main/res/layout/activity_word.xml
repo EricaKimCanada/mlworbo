@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordActivity"
+    android:background="#fcfcfc">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sourcePic"
+                android:layout_width="278dp"
+                android:layout_height="172dp"
+                android:background="#2d2d2d" />
+
+            <TextView
+                android:id="@+id/sourceWord"
+                android:layout_width="243dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="10dp"
+                android:text="source"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sourceLang"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#edecec"
+                android:padding="8dp"
+                android:text="lang" />
+
+            <TextView
+                android:id="@+id/translatedWord"
+                android:layout_width="242dp"
+                android:layout_height="92dp"
+                android:layout_marginTop="10dp"
+                android:text="tran"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDeleteWord"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:textAllCaps="false"
+                android:text="@string/deleteword" />
+
+            <Button
+                android:id="@+id/buttonWordGomain"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:textAllCaps="false"
+                android:text="@string/gomain" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

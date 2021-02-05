@@ -1,0 +1,26 @@
+[
+  {
+    "sourceWord": "ex1",
+    "sourceLang": "French",
+    "sourcePic": "file:///data/data/com.example.mlworbo/cache/cropped1899726446463224968.jpg",
+    "translatedWord": "tran1"
+  },
+  {
+    "sourceWord": "ex2",
+    "sourceLang": "Spanish",
+    "sourcePic": "file:///data/data/com.example.mlworbo/cache/cropped201677552091561022.jpg",
+    "translatedWord": "tran2"
+  },
+  {
+    "sourceWord": "ex3",
+    "sourceLang": "Spanish",
+    "sourcePic": "file:///data/data/com.example.mlworbo/cache/cropped6032090153879581522.jpg",
+    "translatedWord": "tran3"
+  },
+  {
+    "sourceWord": "ex44",
+    "sourceLang": "Spanish",
+    "sourcePic": "file:///data/data/com.example.mlworbo/cache/cropped8616113058087872920.jpg",
+    "translatedWord": "tran44444444444444444444444444444"
+  }
+]

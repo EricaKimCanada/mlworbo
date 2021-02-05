@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ML Worbo</string>
+    <string name="worbo">Worbo</string>
+    <string name="takephoto">Take Photo</string>
+    <string name="cropphoto">Crop Photo</string>
+    <string name="wordlist">Word List</string>
+    <string name="help">Help</string>
+    <string name="myinfo">My Info</string>
+    <string name="translate">Translate</string>
+    <string name="helpdesc">
+ML Worbo is a simple and stylish word app. You can take a picture of other language and
+translate it into English then save them. For more info, visit www.mlworbo.com</string>
+    <string name="translatedword">Translate In English</string>
+    <string name="traslate">Traslate</string>
+    <string name="saveword">Save to Word List</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="deleteword">Delete Word</string>
+    <string name="gomain">Go Main</string>
+</resources>
