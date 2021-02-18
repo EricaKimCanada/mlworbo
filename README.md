@@ -42,3 +42,17 @@ There are four card views you can click on.
 - You can see the details of the selected word entry.
 - Image, Source word from the image, Language of the source word and translated word
 - You can remove the word from the list.
+
+### Technologies Used
+1. ML Kit
+   - Text recognition: com.google.android.gms:play-services-mlkit-text-recognition:16.1.1
+   - Identify Languages: implementation 'com.google.mlkit:language-id:16.1.1'
+   - Translate Text: implementation 'com.google.mlkit:translate:16.1.1'
+   - 
+2. CameraX: Jetpack support library
+   - CameraX core library using camera2: androidx.camera:camera-camera2: 1.0.0-beta07
+   - CameraX Lifecycle Library: androidx.camera:camera-lifecycle: 1.0.0-beta07
+   - CameraX View class: androidx.camera:camera-view:1.0.0-alpha14
+
+3. ArthurHub/Android-Image-Cropper
+   - com.theartofdev.edmodo:android-image-cropper:2.8.+
